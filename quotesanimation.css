@@ -1,6 +1,7 @@
 body{
   font-family: 'Helvetica', sans-serif;
-  background: #dfe0dc;
+  /* background: #dfe0dc; */
+  background: #f2f2f2;
    -webkit-font-smoothing: antialiased;
   color: #333;
   font-size: 0.9em;
@@ -11,6 +12,7 @@ body{
   text-align: justify;
 }
 
+/* ------------------------------------------------------------ POSTER FRAME  */
 .wrapper{
   margin: 0 auto 150px auto;
 	max-width: 960px;
@@ -41,124 +43,110 @@ body{
   /* transform-origin: 100% 100%;
   transform: rotateX(90deg) translateY(130px);
   transition: box-shadow 350ms; */
-
-}
-/* ----------------------------------------------------------  TEXT ANIMATION */
-/* ------------------------------   QUOTE1*/
-.quote1{
-    animation: quote1 6s 0s;
-}
-/* #fefe83 */
-@keyframes quote1 {
-    0%   {color: #333;}
-    40%  {color: #ff4f78;}
-    80%  {color: #ff4f78;}
-    100% {color: #333;}
-}
-
-/* ------------------------------   QUOTE2*/
-.quote2{
-    animation: quote2 6s 6s;
-}
-/* #b0c8df */
-@keyframes quote2 {
-    0%   {color: #333;}
-    40%  {color: #1591ff;}
-    80%  {color: #1591ff;}
-    100% {color: #333;}
-}
-
-/* ------------------------------   QUOTE3*/
-.quote3{
-    animation: quote3 6s 12s;
-}
-/* #cceee0 */
-@keyframes quote3 {
-    0%   {color: #333;}
-    40%  {color: #64d8c6;}
-    80%  {color: #64d8c6;}
-    100% {color: #333;}
-}
-
-/* ------------------------------   QUOTE4*/
-.quote4{
-    animation: quote4 6s 18s;
-}
-
-@keyframes quote4{
-    0%   {color: #333;}
-    40%  {color: #e8808f;}
-    80%  {color: #e8808f;}
-    100% {color: #333;}
 }
 
 
-/* ------------------------------   QUOTE5*/
-.quote5{
-    animation: quote5 6s 24s;
-}
-/* #f24b5e */
-@keyframes quote5 {
-    0%   {color: #333;}
-    40%  {color: #68bbfd;}
-    80%  {color: #68bbfd;}
-    100% {color: #333;}
-}
 
-/* ------------------------------   QUOTE6*/
-.quote6{
-    animation: quote6 6s 30s;
-}
-/* #f24b5e */
-@keyframes quote6 {
-    0%   {color: #333;}
-    40%  {color: #fefe83;}
-    80%  {color: #fefe83;}
-    100% {color: #333;}
-}
-
-/* ------------------------------   QUOTE7*/
-.quote7{
-    animation: quote7 6s 36s;
-}
-/* #f24b5e */
-@keyframes quote7 {
-    0%   {color: #333;}
-    40%  {color: #64d8c6;}
-    80%  {color: #64d8c6;}
-    100% {color: #333;}
-}
-
-/* ------------------------------   QUOTE8*/
-.quote7{
-    animation: quote8 6s 42s;
-}
-/* #f24b5e */
-@keyframes quote8 {
-    0%   {color: #333;}
-    40%  {color: #ff4f78;}
-    80%  {color: #ff4f78;}
-    100% {color: #333;}
-}
-
-/* -------------------------------------------------------------- TEXT BOTTOM */
-div.bottomtext{
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  overflow: hidden;
-  font-size: 0.5em;
-  font-weight: 300;
-  text-transform: none;
-  width: 100%;
-}
-
-div.left, div.middle, div.right{
+/* ----------------------------------------------------------------- CIRCLES  */
+/* -container- */
+div.circlecontainer{
+  position: relative;
+  height: 80%;
+  width: 60%;
+  padding: 20px;
   float: left;
-  width: 33.33%;
-}
-
-div.right{
-  padding-left: 35px;
   box-sizing: border-box;
 }
+/* -1- */
+div.circle1{
+  width: calc(323px*0.6);
+  height: calc(323px*0.6);
+  border-radius: 50%;
+  background-color: #bdd3bc;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+/* -2- */
+div.circle2{
+  width: calc(195.871px*0.6);
+  height: calc(195.871px*0.6);
+  border-radius: 50%;
+  background-color: #1b99c3;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+/* -3- */
+div.circle3{
+  width: calc(120.514px*0.6);
+  height: calc(120.514px*0.6);
+  border-radius: 50%;
+  background-color: #f31172;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+
+}
+/* -4- */
+div.circle4{
+  width: calc(74.483px*0.6);
+  height: calc(74.483px*0.6);
+  border-radius: 50%;
+  background-color: #e88878;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+/* -5- */
+div.circle5{
+  width: calc(46.034px*0.6);
+  height: calc(46.034px*0.6);
+  border-radius: 50%;
+  background-color: #f31172;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+/* -6- */
+div.circle6{
+  width: calc(28.451px*0.6);
+  height: calc(28.451px*0.6);
+  border-radius: 50%;
+  background-color: #1b99c3;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+/* -7- */
+div.circle7{
+  width: calc(16.816px*0.6);
+  height: calc(16.816px*0.6);
+  border-radius: 50%;
+  background-color: #bdd3bc;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+
+
+
+
+/* ----------------------------------------------------------  TEXT ANIMATION */
+/* .quote1{
+    animation: quote1 6s 0s;
+} */
+/* #fefe83 */
+/* @keyframes quote1 {
+    0%   {color: #333;}
+    40%  {color: #ff4f78;}
+    80%  {color: #ff4f78;}
+    100% {color: #333;}
+} */
