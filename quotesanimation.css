@@ -2,14 +2,8 @@ body{
   font-family: 'Helvetica', sans-serif;
   /* background: #dfe0dc; */
   background: #f2f2f2;
-   -webkit-font-smoothing: antialiased;
-  color: #333;
-  font-size: 0.9em;
-  padding: 20px;
-  font-weight: bold;
+   /* -webkit-font-smoothing: antialiased; */
   margin: 0 auto;
-  text-transform: uppercase;
-  text-align: justify;
 }
 
 /* ------------------------------------------------------------ POSTER FRAME  */
@@ -144,6 +138,35 @@ div.circle7{
   top: 81.5442px;
   left:144.37695px;
 }
+
+
+
+
+/* -------------------------------------------------------------------- TEXT  */
+div.textcontainer{
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  width: 60%;
+
+}
+
+div.author{
+  width: 50%;
+  float: left;
+  color: #5e5e5e;
+  font-size: 0.2em;
+  font-weight: bold;
+}
+div.quote{
+  width: 50%;
+  float: left;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+
+
 
 
 
