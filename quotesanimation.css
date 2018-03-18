@@ -63,10 +63,11 @@ div.circle1{
   height: calc(323px*0.6);
   border-radius: 50%;
   background-color: #bdd3bc;
+  opacity: 0.5;
   mix-blend-mode: multiply;
   position: absolute;
   top: 20px;
-  left:70px;
+  left:35px;
 }
 /* -2- */
 div.circle2{
@@ -75,9 +76,11 @@ div.circle2{
   border-radius: 50%;
   background-color: #1b99c3;
   mix-blend-mode: multiply;
+  opacity: 0.5;
   position: absolute;
   top: 20px;
-  left:70px;
+  left:73.4px;
+  display: block;
 }
 /* -3- */
 div.circle3{
@@ -86,9 +89,11 @@ div.circle3{
   border-radius: 50%;
   background-color: #f31172;
   mix-blend-mode: multiply;
+  opacity: 0.5;
   position: absolute;
-  top: 20px;
-  left:70px;
+  top: 42.3458px;
+  left:118.3px;
+  display: block;
 
 }
 /* -4- */
@@ -98,9 +103,10 @@ div.circle4{
   border-radius: 50%;
   background-color: #e88878;
   mix-blend-mode: multiply;
+  opacity: 0.5;
   position: absolute;
-  top: 20px;
-  left:70px;
+  top: 69.9644px;
+  left:132.1093px;
 }
 /* -5- */
 div.circle5{
@@ -109,9 +115,10 @@ div.circle5{
   border-radius: 50%;
   background-color: #f31172;
   mix-blend-mode: multiply;
+  opacity: 0.5;
   position: absolute;
-  top: 20px;
-  left:70px;
+  top: 78.4994px;
+  left:132.1093px;
 }
 /* -6- */
 div.circle6{
@@ -120,9 +127,10 @@ div.circle6{
   border-radius: 50%;
   background-color: #1b99c3;
   mix-blend-mode: multiply;
+  opacity: 0.5;
   position: absolute;
-  top: 20px;
-  left:70px;
+  top: 78.4994px;
+  left:137.37695px;
 }
 /* -7- */
 div.circle7{
@@ -130,10 +138,11 @@ div.circle7{
   height: calc(16.816px*0.6);
   border-radius: 50%;
   background-color: #bdd3bc;
+  opacity: 0.5;
   mix-blend-mode: multiply;
   position: absolute;
-  top: 20px;
-  left:70px;
+  top: 81.5442px;
+  left:144.37695px;
 }
 
 
