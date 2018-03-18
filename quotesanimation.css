@@ -1,0 +1,164 @@
+body{
+  font-family: 'Helvetica', sans-serif;
+  background: #dfe0dc;
+   -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-size: 0.9em;
+  padding: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.wrapper{
+  margin: 0 auto 150px auto;
+	max-width: 960px;
+}
+.content{
+	perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+.poster{
+  /* width: 372px; */
+  width: 389px;
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.poster::after{
+  content: '';
+  width: 389px;
+  height: 550px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+  /* transform-origin: 100% 100%;
+  transform: rotateX(90deg) translateY(130px);
+  transition: box-shadow 350ms; */
+
+}
+/* ----------------------------------------------------------  TEXT ANIMATION */
+/* ------------------------------   QUOTE1*/
+.quote1{
+    animation: quote1 6s 0s;
+}
+/* #fefe83 */
+@keyframes quote1 {
+    0%   {color: #333;}
+    40%  {color: #ff4f78;}
+    80%  {color: #ff4f78;}
+    100% {color: #333;}
+}
+
+/* ------------------------------   QUOTE2*/
+.quote2{
+    animation: quote2 6s 6s;
+}
+/* #b0c8df */
+@keyframes quote2 {
+    0%   {color: #333;}
+    40%  {color: #1591ff;}
+    80%  {color: #1591ff;}
+    100% {color: #333;}
+}
+
+/* ------------------------------   QUOTE3*/
+.quote3{
+    animation: quote3 6s 12s;
+}
+/* #cceee0 */
+@keyframes quote3 {
+    0%   {color: #333;}
+    40%  {color: #64d8c6;}
+    80%  {color: #64d8c6;}
+    100% {color: #333;}
+}
+
+/* ------------------------------   QUOTE4*/
+.quote4{
+    animation: quote4 6s 18s;
+}
+
+@keyframes quote4{
+    0%   {color: #333;}
+    40%  {color: #e8808f;}
+    80%  {color: #e8808f;}
+    100% {color: #333;}
+}
+
+
+/* ------------------------------   QUOTE5*/
+.quote5{
+    animation: quote5 6s 24s;
+}
+/* #f24b5e */
+@keyframes quote5 {
+    0%   {color: #333;}
+    40%  {color: #68bbfd;}
+    80%  {color: #68bbfd;}
+    100% {color: #333;}
+}
+
+/* ------------------------------   QUOTE6*/
+.quote6{
+    animation: quote6 6s 30s;
+}
+/* #f24b5e */
+@keyframes quote6 {
+    0%   {color: #333;}
+    40%  {color: #fefe83;}
+    80%  {color: #fefe83;}
+    100% {color: #333;}
+}
+
+/* ------------------------------   QUOTE7*/
+.quote7{
+    animation: quote7 6s 36s;
+}
+/* #f24b5e */
+@keyframes quote7 {
+    0%   {color: #333;}
+    40%  {color: #64d8c6;}
+    80%  {color: #64d8c6;}
+    100% {color: #333;}
+}
+
+/* ------------------------------   QUOTE8*/
+.quote7{
+    animation: quote8 6s 42s;
+}
+/* #f24b5e */
+@keyframes quote8 {
+    0%   {color: #333;}
+    40%  {color: #ff4f78;}
+    80%  {color: #ff4f78;}
+    100% {color: #333;}
+}
+
+/* -------------------------------------------------------------- TEXT BOTTOM */
+div.bottomtext{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  overflow: hidden;
+  font-size: 0.5em;
+  font-weight: 300;
+  text-transform: none;
+  width: 100%;
+}
+
+div.left, div.middle, div.right{
+  float: left;
+  width: 33.33%;
+}
+
+div.right{
+  padding-left: 35px;
+  box-sizing: border-box;
+}
