@@ -207,6 +207,9 @@ circlecontainer {
     top: -15%;
     -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-out;
 }
 
 .circle2 {
@@ -277,15 +280,3 @@ div.designed{
   font-size: 6.5px;
   line-height: 2.5em;
 }
-
-/* ----------------------------------------------------------  TEXT ANIMATION */
-/* .quote1{
-    animation: quote1 6s 0s;
-}
- #fefe83;
- @keyframes quote1 {
-    0%   {color: #333;}
-    40%  {color: #ff4f78;}
-    80%  {color: #ff4f78;}
-    100% {color: #333;}
-} */
