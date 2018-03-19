@@ -48,6 +48,7 @@ div.circlecontainer {
     padding: 20px;
     float: left;
     box-sizing: border-box;
+    margin-top: 40px;
 }
 /* -1- */
 div.circle1 {
@@ -177,8 +178,8 @@ div.circle7 {
 
 @keyframes slide {
     0% {
-        -webkit-transform: translateY(-10%);
-        transform: translateY(-10%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
     100% {
         -webkit-transform: translateY(100%);
@@ -207,8 +208,7 @@ circlecontainer {
     top: -15%;
     -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-duration: 6s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 4.055;
     animation-timing-function: ease-out;
 }
 
@@ -217,12 +217,16 @@ circlecontainer {
     -webkit-animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate
         infinite;
     animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 6.055;
+    animation-timing-function: ease-out;
 }
 
 .circle3 {
     top: 30%;
     -webkit-animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 6.055;
+    animation-timing-function: ease-out;
 }
 
 .circle4 {
@@ -230,18 +234,24 @@ circlecontainer {
     -webkit-animation: slide 2.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate
         infinite;
     animation: slide 2.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 6.055;
+    animation-timing-function: ease-out;
 }
 
 .circle5 {
     top: 60%;
     -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 6.055;
+    animation-timing-function: ease-out;
 }
 
 .circle6 {
     top: 60%;
     -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 6.055;
+    animation-timing-function: ease-out;
 }
 
 .circle7 {
@@ -249,6 +259,8 @@ circlecontainer {
     -webkit-animation: slide 3.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate
         infinite;
     animation: slide 3.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 6.055;
+    animation-timing-function: ease-out;
 }
 
 /* -------------------------------------------------------------------- TEXT  */
