@@ -52,89 +52,89 @@ div.circlecontainer {
 }
 /* -1- */
 div.circle1 {
-    width: calc(323px*0.6);
-    height: calc(323px*0.6);
+    width: calc(323px*0.7);
+    height: calc(323px*0.7);
     border-radius: 50%;
     background-color: #414065;
     opacity: 0.5;
     /* mix-blend-mode: multiply; */
     position: absolute;
     top: 20px;
-    left: 35px;
+    left: calc(35px - 15px);
 }
 /* -2- */
 div.circle2 {
-    width: calc(195.871px*0.6);
-    height: calc(195.871px*0.6);
+    width: calc(195.871px*0.7);
+    height: calc(195.871px*0.7);
     border-radius: 50%;
     background-color: #565687;
     /* mix-blend-mode: multiply; */
     opacity: 0.5;
     position: absolute;
     top: 20px;
-    left: 73.4px;
+    left: calc(73.4px - 8px);
     display: block;
 }
 /* -3- */
 div.circle3 {
-    width: calc(120.514px*0.6);
-    height: calc(120.514px*0.6);
+    width: calc(120.514px*0.7);
+    height: calc(120.514px*0.7);
     border-radius: 50%;
     background-color: #78779f;
     /* mix-blend-mode: multiply; */
     opacity: 0.5;
     position: absolute;
-    top: 42.3458px;
-    left: 118.3px;
+    top: calc(42.3458px + 5px);
+    left: calc(118.3px);
     display: block;
 }
 /* -4- */
 div.circle4 {
-    width: calc(74.483px*0.6);
-    height: calc(74.483px*0.6);
+    width: calc(74.483px*0.7);
+    height: calc(74.483px*0.7);
     border-radius: 50%;
     background-color: #9a99b7;
     /* mix-blend-mode: multiply; */
     opacity: 0.5;
     position: absolute;
-    top: 69.9644px;
-    left: 132.1093px;
+    top: calc(69.9644px + 9.3px);
+    left: calc(132.1093px + 3px);
 }
 /* -5- */
 div.circle5 {
-    width: calc(46.034px*0.6);
-    height: calc(46.034px*0.6);
+    width: calc(46.034px*0.7);
+    height: calc(46.034px*0.7);
     border-radius: 50%;
     background-color: #bcbbcf;
     /* mix-blend-mode: multiply; */
     opacity: 0.5;
     position: absolute;
-    top: 78.4994px;
-    left: 132.1093px;
+    top: calc(78.4994px + 10px);
+    left: calc(132.1093px + 3px);
 }
 /* -6- */
 div.circle6 {
-    width: calc(28.451px*0.6);
-    height: calc(28.451px*0.6);
+    width: calc(28.451px*0.7);
+    height: calc(28.451px*0.7);
     border-radius: 50%;
     background-color: #dddde7;
     /* mix-blend-mode: multiply; */
     opacity: 0.5;
     position: absolute;
-    top: 78.4994px;
-    left: 137.37695px;
+    top: calc(78.4994px + 10px);
+    left: calc(137.37695px + 3.5px);
 }
 /* -7- */
 div.circle7 {
-    width: calc(16.816px*0.6);
-    height: calc(16.816px*0.6);
+    width: calc(16.816px*0.7);
+    height: calc(16.816px*0.7);
     border-radius: 50%;
     background-color: #e7e4ea;
     opacity: 0.5;
     /* mix-blend-mode: multiply; */
     position: absolute;
-    top: 81.5442px;
-    left: 144.37695px;
+    top: calc(81.5442px + 11.5px);
+    left: calc(144.37695px + 4.5px);
 }
 
 /* ----------------------------------------------------------------- CIRCLE ANIMATION  */
