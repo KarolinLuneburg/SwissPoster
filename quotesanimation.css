@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     /* background: #dfe0dc; */
-    background: #f2f2f2;
+    background: #2b2b43;
     /* -webkit-font-smoothing: antialiased; */
     margin: 0 auto;
 }
@@ -55,9 +55,9 @@ div.circle1 {
     width: calc(323px*0.6);
     height: calc(323px*0.6);
     border-radius: 50%;
-    background-color: #bdd3bc;
-    /* opacity: 0.5; */
-    mix-blend-mode: multiply;
+    background-color: #414065;
+    opacity: 0.5;
+    /* mix-blend-mode: multiply; */
     position: absolute;
     top: 20px;
     left: 35px;
@@ -67,9 +67,9 @@ div.circle2 {
     width: calc(195.871px*0.6);
     height: calc(195.871px*0.6);
     border-radius: 50%;
-    background-color: #1b99c3;
-    mix-blend-mode: multiply;
-    /* opacity: 0.5; */
+    background-color: #565687;
+    /* mix-blend-mode: multiply; */
+    opacity: 0.5;
     position: absolute;
     top: 20px;
     left: 73.4px;
@@ -80,9 +80,9 @@ div.circle3 {
     width: calc(120.514px*0.6);
     height: calc(120.514px*0.6);
     border-radius: 50%;
-    background-color: #f31172;
-    mix-blend-mode: multiply;
-    /* opacity: 0.5; */
+    background-color: #78779f;
+    /* mix-blend-mode: multiply; */
+    opacity: 0.5;
     position: absolute;
     top: 42.3458px;
     left: 118.3px;
@@ -93,9 +93,9 @@ div.circle4 {
     width: calc(74.483px*0.6);
     height: calc(74.483px*0.6);
     border-radius: 50%;
-    background-color: #e88878;
-    mix-blend-mode: multiply;
-    /* opacity: 0.5; */
+    background-color: #9a99b7;
+    /* mix-blend-mode: multiply; */
+    opacity: 0.5;
     position: absolute;
     top: 69.9644px;
     left: 132.1093px;
@@ -105,9 +105,9 @@ div.circle5 {
     width: calc(46.034px*0.6);
     height: calc(46.034px*0.6);
     border-radius: 50%;
-    background-color: #f31172;
-    mix-blend-mode: multiply;
-    /* opacity: 0.5; */
+    background-color: #bcbbcf;
+    /* mix-blend-mode: multiply; */
+    opacity: 0.5;
     position: absolute;
     top: 78.4994px;
     left: 132.1093px;
@@ -117,9 +117,9 @@ div.circle6 {
     width: calc(28.451px*0.6);
     height: calc(28.451px*0.6);
     border-radius: 50%;
-    background-color: #1b99c3;
-    mix-blend-mode: multiply;
-    /* opacity: 0.5; */
+    background-color: #dddde7;
+    /* mix-blend-mode: multiply; */
+    opacity: 0.5;
     position: absolute;
     top: 78.4994px;
     left: 137.37695px;
@@ -129,9 +129,9 @@ div.circle7 {
     width: calc(16.816px*0.6);
     height: calc(16.816px*0.6);
     border-radius: 50%;
-    background-color: #bdd3bc;
-    /* opacity: 0.5; */
-    mix-blend-mode: multiply;
+    background-color: #e7e4ea;
+    opacity: 0.5;
+    /* mix-blend-mode: multiply; */
     position: absolute;
     top: 81.5442px;
     left: 144.37695px;
@@ -167,8 +167,8 @@ div.circle7 {
 
 @-webkit-keyframes slide {
     0% {
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-100%);
+        -webkit-transform: translateY(-45%);
+        transform: translateY(-45%);
     }
     100% {
         -webkit-transform: translateY(100%);
@@ -178,12 +178,12 @@ div.circle7 {
 
 @keyframes slide {
     0% {
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-43%);
+        transform: translateY(-43%);
     }
     100% {
-        -webkit-transform: translateY(100%);
-        transform: translateY(100%);
+        -webkit-transform: translateY(93%);
+        transform: translateY(93%);
     }
 }
 
@@ -206,9 +206,9 @@ circlecontainer {
 
 .circle1 {
     top: -15%;
-    -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 4.055;
+    -webkit-animation: slide 3.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation: slide 3.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
+    animation-iteration-count: 4.205;
     animation-timing-function: ease-out;
 }
 
@@ -217,7 +217,7 @@ circlecontainer {
     -webkit-animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate
         infinite;
     animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 6.055;
+    animation-iteration-count: 6.205;
     animation-timing-function: ease-out;
 }
 
@@ -225,7 +225,7 @@ circlecontainer {
     top: 30%;
     -webkit-animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 2s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 6.055;
+    animation-iteration-count: 6.205;
     animation-timing-function: ease-out;
 }
 
@@ -234,7 +234,7 @@ circlecontainer {
     -webkit-animation: slide 2.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate
         infinite;
     animation: slide 2.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 6.055;
+    animation-iteration-count: 6.205;
     animation-timing-function: ease-out;
 }
 
@@ -242,7 +242,7 @@ circlecontainer {
     top: 60%;
     -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 6.055;
+    animation-iteration-count: 6.205;
     animation-timing-function: ease-out;
 }
 
@@ -250,7 +250,7 @@ circlecontainer {
     top: 60%;
     -webkit-animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
     animation: slide 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 6.055;
+    animation-iteration-count: 6.205;
     animation-timing-function: ease-out;
 }
 
@@ -259,36 +259,72 @@ circlecontainer {
     -webkit-animation: slide 3.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate
         infinite;
     animation: slide 3.5s cubic-bezier(0.445, 0.05, 0.55, 0.95)alternate infinite;
-    animation-iteration-count: 6.055;
+    animation-iteration-count: 6.205;
     animation-timing-function: ease-out;
 }
 
 /* -------------------------------------------------------------------- TEXT  */
+/* - text big pink - */
 div.textcontainer {
     position: absolute;
-    bottom: 35px;
-    right: 10px;
-    width: 60%;
+    bottom: 100px;
+    left: 25px;
+    color: #ffbbb4;
 }
 
-div.author {
-    width: 30%;
-    float: left;
-    color: #5e5e5e;
-    font-size: 0.4em;
-    font-weight: bold;
-    margin-top: 49px;
+/* - mistakes - */
+span.quote_one{
+  font-size: 9px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
 }
-div.quote {
-    width: 70%;
-    float: left;
-    font-size: 0.9em;
-    font-weight: bold;
-    line-height: 1.3em;
+
+/* - that - */
+span.quote_two{
+  font-size: 3em;
+  font-weight: bold;
+  margin-left: 95px;
 }
-div.designed{
-  font-weight: 300;
+
+/* - grow- */
+span.quote_three{
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.5em;
+  margin-left: 100px;
+}
+
+/* - good bad - */
+span.quote_four{
+  font-size: 0.6em;
+  font-weight: bold;
+  position: absolute;
+  top: 22px;
+  right: 17px;
+}
+
+/* - text bottom, grey - */
+div.subtext{
   width: 100%;
-  font-size: 6.5px;
-  line-height: 2.5em;
+  position: absolute;
+  font-size: 7px;
+  font-weight: 300;
+  color: #bcbbcf;
+  position: absolute;
+  left: 183px;
+  bottom: 20px;
+}
+
+div.author, div.date, div.designed{
+  width: 22%;
+  float: left;
+}
+div.date{
+  margin-top: 9.5px;
+  margin-left: -20px;
+}
+div.author{
+  margin-right: -35px;
 }
